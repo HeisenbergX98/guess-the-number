@@ -9,3 +9,10 @@ body {
     background-color: #1f0d26;
     flex-direction: column;
 }
+
+@media (max-width: 768px) {
+    body {
+        min-height: 100vh;
+    }
+
+}
